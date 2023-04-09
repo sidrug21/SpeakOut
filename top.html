@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SpeakOut</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="logo.png" alt="ロゴ">
+      </div>
+      <div class="title-container">
+        <span>SpeakOut</span>
+        <p>「あなたの声が、環境を変える。」</p>
+      </div>
+    </header>
+     
+    <main>
+      <p>職場内での不満や改善してほしいことを投稿し、その投稿に対してコメントやいいねをつけることができるサービスです。</p>
+      <ul>
+        <li>職場のコミュニケーションを促進</li>
+        <li>従業員の声を届ける</li>
+        <li>従業員のモチベーション向上や生産性の向上などの課題を解決</li>
+      </ul>
+      <hr>
+      <h2>最新の投稿</h2>
+      <ul id="post-list">
+        <!-- ここに、最新の投稿が動的に表示されるようにする -->
+      </ul>
+      <form id="post-form">
+        <h2>新しい投稿を追加する</h2>
+        <label for="post-title">タイトル:</label>
+        <input type="text" id="post-title" name="title">
+        <label for="post-body">本文:</label>
+        <textarea id="post-body" name="body"></textarea>
+        <button type="submit">投稿する</button>
+      </form>
+    </main>
+    <script src="main.js"></script>
+    <footer>
+      <div>　</div>
+    </footer>
+  </body>
+</html>

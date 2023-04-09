@@ -1,0 +1,113 @@
+/* 全体のスタイル */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* ヘッダーのスタイル */
+header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(109, 162, 223);
+}
+
+.logo-container {
+  margin-right: 20px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-container span {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.title-container p {
+  font-size: 16px;
+  margin: 0;
+}
+
+
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 10vw;
+  height: auto;
+}
+
+/* メインコンテンツのスタイル */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 投稿リストのスタイル */
+#post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 投稿リストアイテムのスタイル */
+.post {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* 投稿タイトルのスタイル */
+.post h3 {
+  margin-top: 0;
+}
+
+/* 投稿本文のスタイル */
+.post p {
+  margin: 0;
+}
+
+/* 投稿フォームのスタイル */
+#post-form {
+  margin-top: 20px;
+}
+
+#post-form label,
+#post-form input,
+#post-form textarea,
+#post-form button {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#post-form label {
+  font-weight: bold;
+}
+
+#post-form input,
+#post-form textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#post-form button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+}
+
+footer{
+  background-color: rgb(109, 162, 223);
+}
